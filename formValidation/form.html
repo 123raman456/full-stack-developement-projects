@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="index.js"></script>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(118, 22, 22),rgb(60, 17, 17),rgb(19, 79, 19));
+        }
+        .form{
+            width: 270px;
+            height: 400px;
+            margin: 20vh auto 0 auto;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+        .form h1{
+            text-align: center;
+        }
+        .form button{
+            padding: 10px;
+            margin-top: 1px;
+            width: 50%;
+            color: white;
+            background-color: blue;
+            border-radius: 20px;
+            border: none;
+          cursor: pointer; 
+          float: left;
+        }
+        .form label{
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .inputControl {
+            display: flex;
+            flex-direction: column;
+        }
+        .inputControl input{
+            border: 2px solid white;
+            border-radius: 8px;
+            display: block;
+            font-size: 14px;
+            padding: 10px;
+            width: 80%;
+        }
+        .inputControl input:focus{
+            outline: 0;
+        }
+        .inputControl.success input{
+            border-color: green;
+        }
+        .inputControl.error input{
+            border-color: red;
+        }
+        .inputControl small{
+color: red;
+font-size: 10px;
+height: 13px;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <form action="/sign.html" id="form" class="form">
+        <h1>Register With Us</h1>
+        <div class="inputControl success">
+            <label for="username">Username</label>
+<input type="text" name="username" id="username" placeholder="Username">
+<small></small>
+        </div>
+<div class="inputControl error">
+ <label for="email">Email</label>
+<input type="text" id="email" name="username" placeholder="Enter your email">
+<small></small>
+</div>
+<div class="inputControl">
+<label for="password">Password</label>
+<input type="password" id="password"  name="password" placeholder="Enter password">
+<small></small>
+</div>
+<div class="inputControl">
+<label for="password">Confirm Password</label>
+<input type="password" id="password2" name="password2" placeholder="Enter same password">
+<small></small>
+</div>
+<button type="button">Submit</button>
+    </form>
+  </div>  
+</body>
+</html>
