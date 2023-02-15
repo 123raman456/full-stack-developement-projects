@@ -7,6 +7,9 @@ const password1=document.getElementById('password2');
 form.addEventListener("submit",(event) => {
 event.preventDefault();
 checkInputs();
+if(checkInputs() ==true){
+    alert(`welldone`);
+}
 });
 
 
@@ -19,6 +22,7 @@ if(usernameValue ==''){
 setError(username,"Username is required");
 } else{
 setSuccess(username);
+    var u=true;
 }
 if(emailValue ==''){
     setError(email,"Email is required");
@@ -26,27 +30,36 @@ if(emailValue ==''){
 setError(email,'Email must have some special characters')
 } else{
     setSuccess(email);
+    var e=true;
+    
 }
 if(passwordValue.length >=8 ==''){
     setError(password,'Password must be of 8 characters')
 } else{
     setSuccess(password);
+    var p=true;
 }
 
 if(password1Value != passwordValue){
     setError(password1,'Password must be same');
 } else{
     setSuccess(password1);
+    var p1=true;
+}
+if(u && e && p && p1){
+    return true;
 }
 }
 function setError(input,message){
 const inputControl=input.parentNode.querySelector("small");
 
 inputControl.innerText=message;
+
 }
 function setSuccess(input){
-    const inputControl = input.parentElement;
-    inputControl.className='input success';
+    const inputControl=input.parentNode.querySelector("small");
+    inputControl.innerText="";
+    
     
 }
 function isEmail(email){
