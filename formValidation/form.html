@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
-    <script src="index.js"></script>
     <style>
         body{
             background: linear-gradient(to right, rgb(118, 22, 22),rgb(60, 17, 17),rgb(19, 79, 19));
@@ -30,8 +29,8 @@
             background-color: blue;
             border-radius: 20px;
             border: none;
-          cursor: pointer; 
-          float: left;
+            cursor: pointer; 
+            float: left;
         }
         .form label{
             font-size: 20px;
@@ -66,31 +65,32 @@ height: 13px;
     </style>
 </head>
 <body>
-  <div class="container">
-    <form action="/sign.html" id="form" class="form">
-        <h1>Register With Us</h1>
-        <div class="inputControl success">
-            <label for="username">Username</label>
-<input type="text" name="username" id="username" placeholder="Username">
-<small></small>
-        </div>
-<div class="inputControl error">
- <label for="email">Email</label>
+    <div class="container">
+        <form action="/sign.html" id="form" class="form">
+            <h1>Register With Us</h1>
+            <div class="inputControl success">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Username">
+                <small></small>
+            </div>
+            <div class="inputControl error">
+                <label for="email">Email</label>
 <input type="text" id="email" name="username" placeholder="Enter your email">
 <small></small>
 </div>
 <div class="inputControl">
-<label for="password">Password</label>
-<input type="password" id="password"  name="password" placeholder="Enter password">
-<small></small>
+    <label for="password">Password</label>
+    <input type="password" id="password"  name="password" placeholder="Enter password">
+    <small></small>
 </div>
 <div class="inputControl">
-<label for="password">Confirm Password</label>
-<input type="password" id="password2" name="password2" placeholder="Enter same password">
-<small></small>
+    <label for="password">Confirm Password</label>
+    <input type="password" id="password2" name="password2" placeholder="Enter same password">
+    <small></small>
 </div>
 <button type="button">Submit</button>
-    </form>
-  </div>  
+</form>
+</div>  
+<script src="index.js"></script>
 </body>
 </html>
