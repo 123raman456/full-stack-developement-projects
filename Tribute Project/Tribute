@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgb(203, 131, 131),rgb(232, 143, 143),rgb(174, 174, 229));
+            
+        }
+        img{
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+    <h1 style="font-style: bold;font-size: 44px;">Dr. Norman Borlaung</h1>
+    <span style="font-size: 20px;">
+   The man who saved billion lives
+    </span>
+    </div>
+    <div class="image">
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="no image found"></div>
+   <span>Dr. Norman Borlaung, third form the left, trains biologists in mexico on how to increase wheat yields-parts of his life-being was on hunger</span>
+   <div class="info">
+   <h2>Here's a time line of Dr. Borlaung's life:</h2>
+   <ul>
+    <li><strong>1914</strong> - Born in Cresco, lowa</li>
+    <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks
+        to a Depression era program known as the "National Youth Administration"</li>
+    <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
+    <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget
+        cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches
+        him about breeding pest-resistent plants.</li>
+    <li><strong>1941</strong> - Tries to enroll in the military after the Pearl Harbor attack, but is
+        rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control
+        malaria, disenfectants, and other applied science.</li>
+    <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li>
+    <li><strong>1944</strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant
+        wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his
+        team breeds 6,000 different strains of disease resistent wheat - including different varieties
+        for each major climate on Earth.</li>
+    <li><strong>1945</strong> - Discovers a way to grown wheat twice each season, doubling wheat yields
+    </li>
+    <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling
+        American breed, creating a strain that responds well to fertalizer. It goes on to provide 95% of
+        Mexico's wheat.</li>
+    <li><strong>1962</strong> - Visits Delhi and brings his high-yielding strains of wheat to the Indian
+        subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li>
+    <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
+    <li><strong>1983</strong> - helps seven African countries dramatically increase their maize and
+        sorghum yields</li>
+    <li><strong>1984</strong> - becomes a distinguished professor at Texas A&M University</li>
+    <li><strong>2005</strong> - states "we will have to double the world food supply by 2050." Argues
+        that genetically modified crops are the only way we can meet the demand, as we run out of arable
+        land. Says that GM crops are not inherently dangerous because "we've been genetically modifying
+        plants and animals for a long time. Long before we called it science, people were selecting the
+        best breeds."</li>
+    <li><strong>2009</strong> - dies at the age of 95.</li>
+    </ul>
+    <br>
+    <p class="ach"><em>"Borlaug's life and achievement are testimony to the far-reaching contribution that
+        one man's towering intellect, persistence and scientific vision can make to human peace and
+        progress."<br /></em></p>
+<p class="under"><em>-- Indian Prime Minister <b>Manmohan Singh</b></em></p>
+<p id="time"><strong>If you have time, you should read more about this incredible human being on his
+         <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+            target="_blank" style="font-size: 20px;color: blue;">Wikipedia entry</a>.</strong></p>
+    </div>
+    </div>
+</body>
+</html>
