@@ -1,0 +1,45 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+San); */
+body{
+background:repeating-radial-gradient(rgb(147, 145, 139),rgb(175, 197, 175),rgb(230, 225, 216));
+}
+.container{
+    padding:25px;
+    margin: 40px auto;
+    background: linear-gradient(to right,rgb(150, 150, 109),rgb(139, 56, 56),rgb(126, 38, 38));
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: -6px -6px 10px rgb(255,255,255,0.03),6px 6px 10px rgb(10,8,10,0.8),inset -6px -6px 10px rgb(255,255,255,0.05), inset 6px 6px 10px rgb(12,8,12,0.8);
+
+}
+form{
+    display: inline-block;
+}
+input{
+    padding: 5px 15px;
+    box-shadow: -6px -6px 10px rgb(255,255,255,0.03),6px 6px 10px rgb(10,8,10,0.8),inset -6px -6px 10px rgb(255,255,255,0.05), inset 6px 6px 10px rgb(12,8,12,0.8);
+}
+#addtoList{
+display: inline-block;
+background-color: rgb(86, 53, 53);
+color: beige;
+text-align: center;
+margin: 20px;
+border-radius: 5px;
+padding: 5px 15px;
+box-shadow: 0px 5px 10px rgb(0,0,0,0.55);
+}
+#addtoList:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+ol{
+    padding: 20px;
+
+}
+ol li{
+    padding: 5px;
+    color: blueviolet;
+}
+li:hover{
+    cursor: pointer;
+}
